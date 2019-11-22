@@ -1322,16 +1322,6 @@ fstream
 opencv2/opencv.hpp
 -
 
-C:/Users/Jack-/CLionProjects/Myproject1/src/Hyperspectralimage.cpp
-iostream
--
-string.h
--
-opencv2/opencv.hpp
--
-../include/Hyperspectralimage.h
-C:/Users/Jack-/CLionProjects/Myproject1/include/Hyperspectralimage.h
-
 C:/Users/Jack-/CLionProjects/Myproject1/src/main.cpp
 iostream
 -

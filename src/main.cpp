@@ -32,9 +32,13 @@ void on_mouse6(int event, int x, int y, int flags, void *ustc)
 {
     myHimage.on_mouse6(event,x,y);
 }
-int main() {
+void rebuildallimage()
+{
     myHimage.createallimages();
     myHimage.rebuildallimage();
+}
+int main() {
+    rebuildallimage();
     cv::imshow("white_image_A", myHimage.white_image_A);
     cv::setMouseCallback("white_image_A", on_mouse1);
     cv::imshow("white_image_B", myHimage.white_image_B);
