@@ -38,7 +38,7 @@ void rebuildallimage()
     myHimage.rebuildallimage();
 }
 int main() {
-    rebuildallimage();
+    rebuildallimage();//重建图像
     cv::imshow("white_image_A", myHimage.white_image_A);
     cv::setMouseCallback("white_image_A", on_mouse1);
     cv::imshow("white_image_B", myHimage.white_image_B);
